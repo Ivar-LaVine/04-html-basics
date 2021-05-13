@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>HTML</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="h1">задания: </h1>
+            <ul class="ul-list">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+    </header>
+    <main class="main">
+        <section class="introduction-section">
+            <h1>Практическое задание по разработке сайта с помощью<br>HTML 5 и фреймворка Bootstrap</h1>
+        </section>
+        <section class="main-section">
+            <h1>Преимущества HTML 5</h1>
+            <p><strong>HTML5</strong> (англ. HyperText Markup Language, version 5) — язык для структурирования и представления содержимого всемирной паутины. Это пятая версия HTML. Хотя стандарт был завершён (рекомендованная версия к использованию) только в 2014 году (предыдущая, четвёртая, версия опубликована в 1999 году), уже с 2013 года браузерами оперативно осуществлялась поддержка, а разработчиками — использование рабочего стандарта (англ. HTML Living Standard). Цель разработки HTML5 — улучшение уровня поддержки мультимедиа-технологий с одновременным сохранением обратной совместимости, удобочитаемости кода для человека и простоты анализа для парсеров.</p>
+        </section>
+        
+        <aside class="main-aside">
+            <h1>SOMETHING</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, repudiandae illum! Cumque velit hic in error ipsam reprehenderit commodi aperiam consequuntur, aut molestias rerum iusto fuga! Nam minus minima tempore ipsam a sed et iste consequuntur, perspiciatis, beatae totam maiores, nostrum sit ea error? Veniam officiis soluta quo repudiandae deleniti?</p>
+        </aside>
+        <aside class="main-aside">
+            <h1>SOMETHING</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, repudiandae illum! Cumque velit hic in error ipsam reprehenderit commodi aperiam consequuntur, aut molestias rerum iusto fuga! Nam minus minima tempore ipsam a sed et iste consequuntur, perspiciatis, beatae totam maiores, nostrum sit ea error? Veniam officiis soluta quo repudiandae deleniti?</p>
+        </aside>
+        <aside class="main-aside">
+            <h1>SOMETHING</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, repudiandae illum! Cumque velit hic in error ipsam reprehenderit commodi aperiam consequuntur, aut molestias rerum iusto fuga! Nam minus minima tempore ipsam a sed et iste consequuntur, perspiciatis, beatae totam maiores, nostrum sit ea error? Veniam officiis soluta quo repudiandae deleniti?</p>
+        </aside>
+        <div class="flex-container">
+            <div class="flex-item">
+                <article class="main-article">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem impedit id sapiente saepe esse cumque, corporis fuga! Vel, quos tempore? Debitis alias, iure harum saepe, dolore asperiores ipsum deleniti officia nobis necessitatibus aperiam possimus eaque. Optio eius, odit consequuntur iste deleniti vero minus, iusto esse a aliquid eum asperiores.</p>
+                    <p class="p-quote"> &mdash; Ilya Plotnikov</p>
+                </article>
+                <article class="main-article">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem impedit id sapiente saepe esse cumque, corporis fuga! Vel, quos tempore? Debitis alias, iure harum saepe, dolore asperiores ipsum deleniti officia nobis necessitatibus aperiam possimus eaque. Optio eius, odit consequuntur iste deleniti vero minus, iusto esse a aliquid eum asperiores.</p>
+                    <p class="p-quote"> &mdash; Ilya Plotnikov</p>
+                </article>
+            </div>
+            <div class="html5-logo">
+                <img src="images/html5.png" alt="html5">
+                <p>Логотип HTML5</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">@Rybinsk RPCollege All Right Reserved 2021</footer>
+
+    <h1 class="number-h1">Задание №2 (Google Chrome MP3)</h1>
+    <audio controls>
+        <source src="sounds/audio.mp3" type="audio/mp3"> <!--  IN CHROME BROWSER WORKING FINE!!! -->
+    </audio>
+    <h1 class="number-h1">Задание №3 (Google Chrome WEBM)</h1>
+    <video width="320" height="240" controls> 
+        <source src="media/video.webm" type="video/webm"> <!--  IN CHROME BROWSER WORKING FINE!!! -->
+    </video>
+    <h1 class="number-h1">Задание №4</h1>
+    <form action="#">
+        <div class="flex-div">
+            <p>Email: </p>
+            <input type="email" class="form-control" required>
+        </div>
+        <div class="flex-div">
+            <p>Telephone: </p>
+            <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+        </div>
+        <div class="flex-div">
+            <label for="customRange1" class="form-label">Example range</label>
+            <input type="range" class="form-range" id="customRange1" style="width: 400px;">
+        </div>
+        <div class="flex-div">
+            <p>Number of month: </p>
+            <input type="number" min="1" max="12" class="form-control"  style="width: 80px !important;">
+        </div>
+        <div class="flex-div">
+            <p>Colorpicker: </p>
+            <input type="color" class="form-control">
+        </div>
+        <div class="flex-div">
+            <p>Search: </p>
+            <input type="search" class="form-control">
+        </div>
+        <div class="flex-div">
+            <p>Datepicker: </p>
+            <input type="date" class="form-control">
+        </div>
+        <div class="flex-div">
+            <p>Timepicker: </p>
+            <input type="time" class="form-control">
+        </div>
+        <div class="flex-div">
+            <p>DateTimepicker: </p>
+            <input type="datetime" class="form-control">
+        </div>
+        <div class="progress" style="width: 30%; margin: 20px auto;">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="flex-div">
+            <input type="submit" class="btn btn-primary">
+            <input type="reset" class="btn btn-danger">
+        </div>
+    </form>
+    <h1 class="number-h1">Задание №5</h1>
+    <canvas id="triangle-canvas" width="200" height="200"></canvas>
+    <canvas id="text-canvas" width="200" height="200"></canvas>
+    <canvas id="rectangles-canvas" width="400" height="400"></canvas>
+    <div style="margin-bottom: 500px;"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
